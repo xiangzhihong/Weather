@@ -65,6 +65,7 @@ export default class Header extends Component {
 
 const styles = {
     container: {
+        marginTop:30,
         height: 250
     },
 
@@ -82,7 +83,6 @@ const styles = {
     },
     city:{
         flex: 1,
-        marginTop:30,
         backgroundColor:'transparent',
     },
     cityText:{
