@@ -69,7 +69,7 @@ export default class WeatherIndex extends Component {
                                         tintColor={'white'}
                                         titleColor={'white'}
                                         title={weatherStore.loading ? "刷新中..." : '下拉刷新'}/>}>
-                        <Header/>
+                        <Header navigation={this.props.navigation}/>
                         <Divider/>
                         <HourlyForecast/>
                         <Divider/>
